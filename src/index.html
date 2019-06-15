@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width,
+          user-scalable=no,
+          initial-scale=1.0,
+          maximum-scale=1.0,
+          minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header_inner">
+
+        <a href="#" class="logo">
+            <img src="images/logo.png" alt="logo">
+        </a>
+      
+        <div class="delivery_info">
+          <button class="asap">ASAP</button>
+          <form>
+            <label for="location">to
+              <input type="text" name="address" id="location" value="ul. Bolshaya Dmitrovka,22">
+            </label>
+          </form>
+        </div>
+      
+        <div class="authorization">
+          <button class="sign_in">Sign in</button>
+          <button class="register">Register</button>
+          <a href="#" class="basket"></a>
+        </div>
+
+    </div>
+  </header>
+
+  <div class="search">
+    <form>
+      <input name="restaurant_search"
+              id="search"
+              placeholder="Search for restaurant or cuisine">
+    </form>
+  </div>
+  <hr class="line_1">
+
+  <div class="delivery_info_mobile_view">
+    <div class="delivery_terms">
+        <label for="asap_mobile_view">When</label><br>
+        <input type="text" name="time" id="asap_mobile_view" value="ASAP">
+    </div>
+
+    <div class="delivery_address">
+      <form>
+        <label for="location_mobile_view">To<br>
+          <input type="text" name="address" id="location_mobile_view" value="ul. Bolshaya Dmitrovka,22">
+        </label>
+      </form>
+    </div>
+  </div>
+
+  <p class="restaurants_caption">Moscow Restaurants</p>
+
+  <main class="main_container">
+    <div class="item">
+      <a href="#"><img id="top" src="images/1.png"></a>
+      <p class="restaurant_name">Макдоналдс — Газетный</p>
+      <p class="cuisine">₽₽ • Бургеры</p>
+      <p class="delivery_time">25 - 35 Min</p>
+    </div>
+    <div class="item">
+      <a href="#"><img src="images/2.png"></a>
+      <p class="restaurant_name">DimSum & Co — ЦДМ</p>
+      <p class="cuisine">₽ • Японская • Китайская • Азиатская</p>
+      <p class="delivery_time">40 - 50 Min</p>
+    </div>
+    <div class="item">
+      <a href="#"><img src="images/3.png"></a>
+      <p class="restaurant_name">ДвижОК — Манежная</p>
+      <p class="cuisine">₽ • Американская • Европейская</p>
+      <p class="delivery_time">35 - 45 Min</p>
+    </div>
+    <div class="item">
+      <a href="#"><img src="images/4.png"></a>
+      <p class="restaurant_name">НЯ — NHA</p>
+      <p class="cuisine">₽₽ • Вьетнамская</p>
+      <p class="delivery_time">30 - 40 Min</p>
+    </div>
+    <div class="item">
+      <a href="#"><img src="images/5.png"></a>
+      <p class="restaurant_name">WOKWEI</p>
+      <p class="cuisine">₴ • Китайська • Азіатська</p>
+      <p class="delivery_time">40 - 50 Min</p>
+    </div>
+    <div class="item">
+      <a href="#"><img src="images/6.png"></a>
+      <p class="restaurant_name">Milk Bar</p>
+      <p class="cuisine">₴₴ • Десерти • Європейська</p>
+      <p class="delivery_time">25 - 35 Min</p>
+    </div>
+    <div class="item">
+      <a href="#"><img src="images/7.png"></a>
+      <p class="restaurant_name">Mimosa Brooklyn Pizza</p>
+      <p class="cuisine">₴₴ • Італійська • Піца • Американська</p>
+      <p class="delivery_time">15 - 25 Min</p>
+    </div>
+    <div class="item">
+      <a href="#"><img src="images/8.png"></a>
+      <p class="restaurant_name">To Be</p>
+      <p class="cuisine">₴₴ • Японська • Азіатська • Суші</p>
+      <p class="delivery_time">25 - 35 Min</p>
+    </div>
+    <div class="item">
+      <a href="#"><img src="images/9.png"></a>
+      <p class="restaurant_name">Druzi Cafe (вул. Прорізна)</p>
+      <p class="cuisine">₴₴ • Американська • Сучасна європейська</p>
+      <p class="delivery_time">30 - 40 Min</p>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer_container">
+      <div class="footer_logo">
+        <img src="images/white-logo.png">
+      </div>
+      <hr class="line_2">
+
+      <div class="information">
+        <div class="lang_and_social">
+          <form>
+            <select class="language">
+              <option value="English">ENGLISH</option>
+              <option value="Ukrainian">UKRAINIAN</option>
+              <option value="Russian">RUSSIAN</option>
+            </select>
+          </form>
+  
+          <a href="#" class="hashtag"><span>#</span>UberEats</a><br>
+          <div class="socials">
+            <img src="images/facebook.svg" alt="facebook icon">
+            <img src="images/twitter.svg" alt="twitter icon">
+            <img src="images/instagram.svg" alt="instagram icon">
+          </div>
+        </div>
+
+        <ul class="info_list_1">
+          <li><a href="#">About UberEats</a></li>
+          <li><a href="#">Become a Delivery Partner</a></li>
+          <li><a href="#">Become a Restaurant Partner</a></li>
+        </ul>
+        <ul class="info_list_2">
+          <li><a href="#">See all cities</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">FAQs</a></li>
+        </ul>
+      </div>
+      <hr class="line_3">
+
+      <div class="get_application">
+        <img src="images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.png" alt="app store logo">
+        <img src="images/en_badge_web_generic-cf6dad406f.png" alt="google play logo">
+      </div>
+      <hr class="line_3">
+
+      <div class="copyright_and_privacy">
+        <p>© 2017 Uber Technologies Inc.</p>
+        <a href="#">Privacy</a><a href="#">Terms</a>
+      </div>
+    </div>
+    <a href="#top" class="to_top">
+      <button class="button_to_top"></button>
+    </a>
+  </footer>
+<script type="text/javascript" src="./main.js"></script>
+</body>
+</html>
