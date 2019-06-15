@@ -1,0 +1,535 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  height: 72px;
+  padding: 16px 0;
+  box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+}
+
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  line-height: 40px;
+  margin-left: 8px;
+}
+
+.delivery_info {
+  display: none;
+}
+
+.delivery_info label {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.asap {
+  font-size: 13px;
+  line-height: 24px;
+  background-color: white;
+  border: 1px solid #E0E0E0;
+  border-radius: 2px;
+  padding: 8px 12px;
+  margin-right: 10px;
+}
+
+#location {
+  width: 215px;
+  background-image: url(images/Combined-Shape.png), url(images/Oval-3.png);
+  background-repeat: no-repeat;
+  background-position: 10px 10px, 14px 14px;
+  border: 1px solid #E0E0E0;
+  border-radius: 2px;
+  line-height: 36px;
+  padding-left: 30px;
+  margin-left: 7px;
+}
+
+.delivery_info_mobile_view {
+  display: flex;
+  padding: 0 8px;
+}
+
+.delivery_info_mobile_view label{
+  font-size: 11px;
+  line-height: 13px;
+  padding: 0 8px;
+}
+
+.delivery_terms {
+  margin-right: 16px;
+}
+
+.delivery_address {
+  width: 100%;
+}
+
+#asap_mobile_view {
+  width: 65px;
+  line-height: 36px;
+  border: 1px solid #E0E0E0;
+  border-radius: 2px;
+  padding-left: 16px;
+  margin-top: 3px;
+}
+
+#location_mobile_view {
+  width: 100%;
+  background-image: url(images/Combined-Shape.png), url(images/Oval-3.png);
+  background-repeat: no-repeat;
+  background-position: 10px 10px, 14px 14px;
+  border: 1px solid #E0E0E0;
+  border-radius: 2px;
+  line-height: 36px;
+  padding-left: 30px;
+  margin-top: 3px;
+}
+
+.authorization {
+  display: flex;
+  width: 156px;
+  justify-content: space-between;
+  margin-right: 8px;
+}
+
+.sign_in {
+  width: 72px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid #E0E0E0;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+}
+
+.register {
+  width: 72px;
+  height: 40px;
+  background: #262626;
+  border: none;
+  border-radius: 2px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 24px;
+  color: white;
+}
+
+.basket {
+  display: none;
+  width: 40px;
+  background-image: url(images/basket.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.search {
+  padding: 8px 0px 15px;
+  margin: 32px 4px 0px 8px;
+}
+
+#search {
+  width: 100%;
+  background-image: url(images/Shape.png);
+  background-repeat: no-repeat;
+  background-position-y: 4px;
+  background-size: 16px;
+  font-size: 13px;
+  line-height: 24px;
+  padding-left: 24px;
+  border: none;
+}
+
+.line_1 {
+  height: 1px;
+  background: #757575;
+  mix-blend-mode: normal;
+  opacity: 0.3;
+  border: none;
+  margin-bottom: 24px;
+  margin: 0 8px;
+}
+
+.restaurants_caption {
+  margin-top: 40px;
+  margin-bottom: 14px;
+  padding-left: 8px;
+  font-size: 22px;
+  line-height: 34px;
+}
+
+.main_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.item {
+  flex: 100%;
+  padding: 0 8px;
+}
+
+.item img {
+  width: 100%;
+}
+
+.restaurant_name {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 14px;
+  margin-bottom: 0;
+}
+
+.cuisine {
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
+
+.delivery_time {
+  font-size: 13px;
+  line-height: 21px;
+  margin-top: 4px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #262626;
+  position: relative;
+}
+
+.footer_container {
+  padding-bottom: 40px;
+}
+
+.footer_logo {
+  padding: 56px 8px 40px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  padding-left: 8px;
+}
+
+.language {
+  width: 173px;
+  height: 40px;
+  background: url(images/world.svg), url(images/Shape.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 16px  50%, 151px 50%;
+  background-color: #3B3B3B;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  color: #FFFFFF;
+  font-size: 13px;
+  line-height: 15px;
+  padding-left: 48px;
+  margin: 32px 0;
+  border: none;
+  border-radius: 2px;
+}
+
+.line_2 {
+  height: 1px;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+  border: none;
+  margin: 0 8px;
+}
+
+.hashtag {
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.hashtag span {
+  color: #49A144;
+}
+
+.socials {
+  margin-top: 17px;
+  margin-bottom: 36px;
+}
+
+.socials img {
+  margin-right: 8px;
+}
+
+.info_list_1, 
+.info_list_2 {
+  padding-left: 8px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.info_list_1 a,
+.info_list_2 a {
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+
+.info_list_1 li,
+.info_list_2 li {
+  margin-bottom: 23px;
+}
+
+.line_3 {
+  height: 1px;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+  border: none;
+  margin: 0 8px;
+  margin-bottom: 0;
+}
+
+.get_application {
+  padding: 24px 0px 24px 16px;
+  text-align: center;
+}
+
+.get_application img:first-child {
+  margin-right: 20px;
+}
+
+.copyright_and_privacy p{
+  font-size: 11px;
+  line-height: 13px;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+  margin-left: 8px;
+  margin-top: 40px;
+}
+
+.copyright_and_privacy {
+  display: flex;
+  flex-direction: column;
+}
+
+.copyright_and_privacy a {
+  display: block;
+  font-size: 11px;
+  line-height: 13px;
+  color: #FFFFFF;
+  text-decoration: none;
+  margin-bottom: 24px;
+  margin-left: 8px;
+}
+
+.copyright_and_privacy a:last-child
+ {
+   margin-bottom: 0;
+ }
+
+.to_top {
+  width: 64px;
+  height: 64px;
+}
+
+.button_to_top {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  background-color: #59BD5A;
+  background-image: url('images/arrow.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 2px;
+  border: none;
+  bottom: 24px;
+  right: 16px;
+}
+
+ @media (min-width: 640px) and (max-width: 1023px) {
+  .authorization {
+    width: 200px;
+  }
+
+  .delivery_info {
+    display: flex;
+  }
+
+  .delivery_info_mobile_view {
+    display: none;
+  }
+
+  .search {
+    margin-top: 32px;
+    padding-left: 8px;
+  }
+
+  #search {
+    font-size: 16px;
+    background-size: 22px;
+    padding-left: 32px;
+  }
+
+  .basket {
+    display: block;
+  }
+
+  .restaurants_caption {
+    margin-top: 40px;
+    margin-bottom: 14px;
+  }
+
+  .main_container {
+    justify-content: space-between;
+  }
+
+  .item {
+    flex: 40%;
+    max-width: 50%;
+  }
+
+  .information {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .info_list_1, 
+  .info_list_2,
+  .lang_and_social {
+    flex: 30%;
+  }
+
+  .info_list_1, 
+  .info_list_2 {
+    margin-top: 40px;
+  }
+
+  .copyright_and_privacy {
+    flex-direction: row;
+  }
+
+  .copyright_and_privacy p,
+  .copyright_and_privacy a {
+    flex: 30%;
+    margin-top: 40px;
+  }
+
+  .to_top,
+  .button_to_top {
+    width: 80px;
+    height: 80px;
+  }
+ }
+
+ @media (min-width: 1024px) {
+  .authorization {
+    width: 232px;
+  }
+  
+  
+
+  .header_inner {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
+  .search {
+    max-width: 1024px;
+    margin: 0 auto;
+    margin-top: 32px;
+    padding-left: 8px;
+  }
+
+  #search {
+    font-size: 16px;
+    background-size: 22px;
+    padding-left: 32px;
+  }
+
+  .restaurants_caption {
+    max-width: 1024px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 14px;
+  }
+
+  .delivery_info {
+    display: flex;
+  }
+
+  .delivery_info_mobile_view {
+    display: none;
+  }
+
+  .basket {
+    display: block;
+  }
+
+  .main_container {
+    max-width: 1024px;
+    justify-content: space-between;
+  }
+
+  .item {
+    flex: 30%;
+  }
+
+  .line_1,
+  .line_2,
+  .line_3 {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
+  footer {
+    margin-top: 80px;
+  }
+
+  .footer_container {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
+  .information {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .info_list_1, 
+  .info_list_2,
+  .lang_and_social {
+    flex: 30%;
+  }
+
+  .info_list_1, 
+  .info_list_2 {
+    margin-top: 40px;
+  }
+
+  .copyright_and_privacy {
+    flex-direction: row;
+  }
+
+  .copyright_and_privacy p,
+  .copyright_and_privacy a {
+    flex: 30%;
+    margin-top: 40px;
+  }
+
+ }
