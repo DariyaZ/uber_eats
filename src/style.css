@@ -120,6 +120,8 @@ body {
   font-weight: 500;
   font-size: 13px;
   line-height: 24px;
+  cursor: pointer;
+  outline: none;
 }
 
 .authorization a {
@@ -144,6 +146,8 @@ body {
   font-size: 13px;
   line-height: 24px;
   color: #fff;
+  cursor: pointer;
+  outline: none;
 }
 
 .authorization a:hover .register {
@@ -217,7 +221,7 @@ body {
 }
 
 .item:hover img {
-    opacity: 0.4;
+  opacity: 0.4;
 }
 
 .restaurant_name {
