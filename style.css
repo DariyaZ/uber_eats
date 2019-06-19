@@ -88,6 +88,7 @@ body {
   border-radius: 2px;
   padding-left: 16px;
   margin-top: 3px;
+  outline: none;
 }
 
 #location_mobile_view {
@@ -100,6 +101,7 @@ body {
   line-height: 36px;
   padding-left: 30px;
   margin-top: 3px;
+  outline: none;
 }
 
 .authorization {
@@ -120,8 +122,15 @@ body {
   line-height: 24px;
 }
 
+.authorization a {
+  text-decoration: none;
+}
+
 .sign_in:hover {
   background-color: #262626;
+}
+
+.authorization a:hover .sign_in {
   color: #fff;
 }
 
@@ -134,12 +143,15 @@ body {
   font-weight: 500;
   font-size: 13px;
   line-height: 24px;
-  color: white;
+  color: #fff;
+}
+
+.authorization a:hover .register {
+  color: #000;
 }
 
 .register:hover {
   background-color: #fff;
-  color: #000;
   border: 1px solid #e0e0e0;
   border-radius: 2px;
 }
@@ -204,8 +216,8 @@ body {
   width: 100%;
 }
 
-.item img:hover {
-  opacity: 0.4;
+.item:hover img {
+    opacity: 0.4;
 }
 
 .restaurant_name {
@@ -374,6 +386,10 @@ footer {
   margin-bottom: 0;
 }
 
+.copyright_and_privacy a:hover {
+  color: #49a144;
+}
+
 .to_top {
   width: 64px;
   height: 64px;
@@ -391,6 +407,7 @@ footer {
   border: none;
   bottom: 24px;
   right: 16px;
+  outline: none;
 }
 
 @media (min-width: 640px) and (max-width: 1023px) {
@@ -473,8 +490,6 @@ footer {
     width: 232px;
   }
   
-  
-
   .header_inner {
     max-width: 1024px;
     margin: 0 auto;
@@ -502,6 +517,11 @@ footer {
 
   .delivery_info {
     display: flex;
+  }
+
+  #location {
+    font-size: 16px;
+    width: 292px;
   }
 
   .delivery_info_mobile_view {
