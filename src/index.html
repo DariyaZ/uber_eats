@@ -9,22 +9,27 @@
           maximum-scale=1.0,
           minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Uber Eats</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="images/favicon.ico"/>
 </head>
 <body>
   <header class="header">
     <div class="header_inner">
 
         <a href="#" class="logo">
-            <img src="images/logo.png" alt="logo">
+            <img src="images/logo.svg" alt="logo">
         </a>
         <div class="delivery_info">
           <button class="asap">ASAP</button>
           <form>
             <label for="location">to
-              <input type="text" name="address" id="location" value="ul. Bolshaya Dmitrovka,22">
+              <input type="text" name="address" 
+                                id="location" 
+                                placeholder="ul. Bolshaya Dmitrovka,22" 
+                                onfocus="this.placeholder = ''"
+                                onblur="this.placeholder = 'ul. Bolshaya Dmitrovka,22'">
             </label>
           </form>
         </div>
@@ -67,25 +72,25 @@
     <div class="item">
       <a href="#"><img id="top" src="images/1.png" alt="macdonalds"></a>
       <p class="restaurant_name">Макдоналдс — Газетный</p>
-      <p class="cuisine">₽₽ • Бургеры</p>
+      <p class="cuisine">₴₴ • Бургеры</p>
       <p class="delivery_time">25 - 35 Min</p>
     </div>
     <div class="item">
       <a href="#"><img src="images/2.png" alt="DimSum"></a>
       <p class="restaurant_name">DimSum & Co — ЦДМ</p>
-      <p class="cuisine">₽ • Японская • Китайская • Азиатская</p>
+      <p class="cuisine">₴ • Японская • Китайская • Азиатская</p>
       <p class="delivery_time">40 - 50 Min</p>
     </div>
     <div class="item">
       <a href="#"><img src="images/3.png" alt="ДвижОК"></a>
       <p class="restaurant_name">ДвижОК — Манежная</p>
-      <p class="cuisine">₽ • Американская • Европейская</p>
+      <p class="cuisine">₴ • Американская • Европейская</p>
       <p class="delivery_time">35 - 45 Min</p>
     </div>
     <div class="item">
       <a href="#"><img src="images/4.png" alt="НЯ"></a>
       <p class="restaurant_name">НЯ — NHA</p>
-      <p class="cuisine">₽₽ • Вьетнамская</p>
+      <p class="cuisine">₴₴ • Вьетнамская</p>
       <p class="delivery_time">30 - 40 Min</p>
     </div>
     <div class="item">
@@ -123,7 +128,7 @@
   <footer>
     <div class="footer_container">
       <div class="footer_logo">
-        <img src="images/white-logo.png" alt="logo">
+        <img src="images/white-logo.svg" alt="logo">
       </div>
       <hr class="line_2">
 
@@ -136,11 +141,11 @@
               <option value="Russian">RUSSIAN</option>
             </select>
           </form>
-          <a href="#" class="hashtag"><span>#</span>UberEats</a><br>
+          <p class="hashtag"><span>#</span>UberEats</p>
           <div class="socials">
-            <img src="images/facebook.svg" alt="facebook icon">
-            <img src="images/twitter.svg" alt="twitter icon">
-            <img src="images/instagram.svg" alt="instagram icon">
+            <a href="#"><img src="images/facebook.svg" alt="facebook icon"></a>
+            <a href="#"><img src="images/twitter.svg" alt="twitter icon"></a>
+            <a href="#"><img src="images/instagram.svg" alt="instagram icon"></a>
           </div>
         </div>
 
@@ -159,8 +164,8 @@
       <hr class="line_3">
 
       <div class="get_application">
-        <img src="images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.png" alt="app store logo">
-        <img src="images/en_badge_web_generic-cf6dad406f.png" alt="google play logo">
+        <img src="images/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="app store logo">
+        <img src="images/en_badge_web_generic-cf6dad406f.svg" alt="google play logo">
       </div>
       <hr class="line_3">
 
@@ -173,6 +178,7 @@
       <button class="button_to_top"></button>
     </a>
   </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
 <script type="text/javascript" src="./main.js"></script>
 </body>
 </html>
