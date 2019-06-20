@@ -48,9 +48,9 @@ body {
 
 #location {
   width: 215px;
-  background-image: url(images/Combined-Shape.png), url(images/Oval-3.png);
+  background-image: url(images/location.svg);
   background-repeat: no-repeat;
-  background-position: 10px 10px, 14px 14px;
+  background-position: 10px 10px;
   border: 1px solid #e0e0e0;
   border-radius: 2px;
   line-height: 36px;
